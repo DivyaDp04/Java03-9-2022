@@ -10,6 +10,10 @@ public class Employee {
 
 		System.out.println("Employee name is Renu");
 	}
+	public void empCode() {
+
+		System.out.println("Employee code is 762785381");
+	}
 	public static void main(String[] args) {
 		
 		Employee a= new Employee();
