@@ -18,13 +18,24 @@ public class Employee {
 
 		System.out.println("Employee code is 762785381");
 	}
+	public void add() {
+		System.out.println("Employee code is add");
+	}
+	public void sample() {
+
+		System.out.println("Employee Sample");
+	}
+	public void sub() {
+
+		System.out.println("Employee String");
+	}
 	public static void main(String[] args) {
 		
 		Employee a= new Employee();
 		a.empId();
 		a.empName();
-		a.empCodes();
 		a.empCode();
+		a.empCodes();
 	}
 
 }
