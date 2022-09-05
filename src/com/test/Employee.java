@@ -23,6 +23,8 @@ public class Employee {
 		Employee a= new Employee();
 		a.empId();
 		a.empName();
+		a.empCodes();
+		a.empCode();
 	}
 
 }
